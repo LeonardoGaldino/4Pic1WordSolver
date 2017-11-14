@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<title> 4Pics1Word Solver </title>
+				<meta charset="UTF-8" />
+		</head>
+		<body>
+			<h3> Como usar: </h3>
+			<p> No campo palavra-chave, para cada letra da palavra a ser encontrada digite um _ (sem espaços, tudo junto) </p>
+			<p> Se você souber uma letra da palavra, digite essa letra no local do _ </p>
+			<p> No campo letras disponíveis, coloque as letras que podem ser usadas <strong> separadas por espaço! </strong> </p>
+			<p> Clique no botão Gerar </p>
+			<p> <strong> Se a palavra-chave for muito grande, poderá travar sua aba! </strong> </p>
+			<div>
+				<label> Palavra-chave: </label>
+				<input type="text" id="word-inp">
+			<div>
+			<div style="margin-top: 15px">
+				<label> Letras disponíveis: </label>
+				<input type="text" id="letters-inp">
+				<button onclick="generate()"> Gerar </button>
+			</div>
+			<div>
+				<ul id="output">
+				</ul>
+			</div>
+			<script src="main.js"></script>
+		</body>
+</html>
